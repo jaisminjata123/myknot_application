@@ -39,6 +39,7 @@ class CameraWidgetState extends State{
   String imageUrl;
   var data;
 
+
   Future<String> uploadImage(var imageFile ) async {
     Future <Response> DATA;
     Reference ref = FirebaseStorage.instance.ref().child("/photo.jpg");
